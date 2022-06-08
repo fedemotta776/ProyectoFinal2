@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 0px) and (max-width: 997px) {
+    .navegador {
+        background-color: #f0899f ;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .active{
+        background-color: #f7c0cf;
+    }
+    .panelNav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color: white;
+        padding: 10px;
+    }
+    .Redes {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .elevenLogo {
+        width: 150px;
+        padding: 10px;
+    }
+    .linea {
+        height: 1px;
+        background: white;
+        margin-top: 5px;
+    
+    }
+    .imagenesMain a:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+    
+    }
+    
+}
+
+@media (min-width: 998px) and (max-width: 2560px) {
+    .navegador {
+        background-color: #f0899f ;
+        color: white;
+        text-align: center;
+        width: 200px;
+    }
+    .active{
+        background-color: #f7c0cf;
+    }
+    .panelNav {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        padding: 10px;
+        width: 200px;
+    }
+    .Redes {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .elevenLogo {
+        width: 150px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px ;
+    }
+    .linea {
+        height: 1px;
+        background: white;
+        margin-top: 5px;
+    
+    }
+    .imagenesMain a:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+    
+    }
+    .imgCard a:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+
+    }
+}
